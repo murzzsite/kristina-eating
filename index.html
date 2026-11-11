@@ -1,0 +1,350 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Кристина Рябуха — психолог по пищевому поведению</title>
+<meta name="description" content="Психолог Кристина Рябуха работает с пищевым поведением: переедание, срывы, жёсткие запреты, вина после еды. Сессия 50 минут — 5 000 ₽, программа на три месяца — 72 000 ₽, старт — 1 000 ₽.">
+<meta property="og:title" content="Кристина Рябуха — психолог по пищевому поведению">
+<meta property="og:description" content="Выйти из круга «запрет, срыв, вина» и вернуть спокойные отношения с едой.">
+<meta property="og:type" content="website">
+<meta name="theme-color" content="#F4F5F7">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Ccircle cx='16' cy='16' r='11' fill='none' stroke='%230C4A9B' stroke-width='5' stroke-dasharray='58 11' stroke-linecap='round'/%3E%3C/svg%3E">
+<script>document.documentElement.classList.add('js')</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Geologica:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header class="header" id="header">
+  <div class="header__inner">
+    <a class="logo" href="#top" aria-label="Кристина Рябуха, на главную">
+      <svg viewBox="0 0 32 32" aria-hidden="true"><circle cx="16" cy="16" r="11" stroke-dasharray="58 11"/></svg>
+      <span>Кристина Рябуха</span>
+    </a>
+    <nav class="nav" id="nav" aria-label="Разделы">
+      <a href="#rules">Правила</a>
+      <a href="#cycle">Круг</a>
+      <a href="#compose">Состав</a>
+      <a href="#about">Обо мне</a>
+      <a href="#price">Стоимость</a>
+      <a href="#faq">Вопросы</a>
+    </nav>
+    <a class="btn btn--small header__cta" href="#contact"><span>Записаться</span></a>
+    <button class="burger" id="burger" aria-label="Меню" aria-expanded="false"><i></i><i></i></button>
+  </div>
+</header>
+
+<main id="top">
+
+<!-- HERO -->
+<section class="hero">
+  <div class="hero__text">
+    <h1 class="hero__title" data-split>Еда — не враг и не награда</h1>
+    <p class="hero__lead">Я психолог, работаю с пищевым поведением. Помогаю выйти из круга «запрет, срыв, вина» и вернуть спокойные отношения с едой.</p>
+    <div class="hero__actions">
+      <a class="btn" href="#contact" data-magnet><span>Записаться на сессию</span></a>
+      <a class="textlink" href="#compose">Собрать свой состав</a>
+    </div>
+  </div>
+  <figure class="hero__media">
+    <div class="hero__photo"><img src="img/kristina.jpg" width="600" height="768" alt="Кристина Рябуха, психолог по пищевому поведению" fetchpriority="high"></div>
+    <div class="hero__label stack" data-tilt>
+      <div class="tilt">
+        <div class="sway">
+          <div class="tag" aria-label="Пример этикетки: состав вашего вечера">
+            <p class="tag__title">Состав вашего вечера</p>
+            <p class="tag__sub">Порция: одна тарелка без обвинений</p>
+            <div class="tag__bar"></div>
+            <dl class="tag__rows">
+              <div><dt>Калории</dt><dd>не считаем</dd></div>
+              <div><dt>Запреты</dt><dd>0</dd></div>
+              <div><dt>Право на ужин</dt><dd>без условий</dd></div>
+              <div><dt>Вина</dt><dd>срок годности истёк</dd></div>
+            </dl>
+            <p class="tag__fine">Состав: усталость, запрет «с понедельника», немного настоящего голода. Не употреблять с самокритикой.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </figure>
+</section>
+
+<!-- RULES -->
+<section class="sec" id="rules">
+  <div class="rules">
+    <div class="rules__head">
+      <h2 class="sec__title" data-reveal>Ваш свод правил про еду</h2>
+      <p class="sec__lead" data-reveal>Узнаёте хотя бы три? Тогда давайте поговорить.</p>
+    </div>
+    <div>
+      <ul class="rules__list">
+        <li class="rule"><span>Не есть после шести</span></li>
+        <li class="rule"><span>С понедельника — строго</span></li>
+        <li class="rule"><span>Сначала заслужить ужин</span></li>
+        <li class="rule"><span>Съем одно — и хватит</span></li>
+        <li class="rule"><span>Доесть, чтобы не пропало</span></li>
+        <li class="rule"><span>Есть, когда никто не видит</span></li>
+        <li class="rule"><span>Никакого сладкого в доме</span></li>
+        <li class="rule"><span>Сорвалась — начинаю заново</span></li>
+      </ul>
+      <p class="rules__end" data-reveal>Если правила не работают, дело не в слабой воле. Дело в самих правилах.</p>
+    </div>
+  </div>
+</section>
+
+<!-- CYCLE: scroll scene -->
+<section class="cycle" id="cycle">
+  <div class="cycle__stage">
+    <div class="cycle__sticky">
+      <svg class="ring" id="ring" data-stage="0" viewBox="0 0 760 560" role="img" aria-label="Замкнутый круг: запрет, голод, срыв, вина. Затем тот же круг с другими словами: разрешение, голод вовремя, еда, покой">
+        <path class="ring__arc a1" pathLength="100" d="M380 90 A190 190 0 0 1 570 280"/>
+        <path class="ring__arc a2" pathLength="100" d="M570 280 A190 190 0 0 1 380 470"/>
+        <path class="ring__arc a3" pathLength="100" d="M380 470 A190 190 0 0 1 190 280"/>
+        <path class="ring__arc a4" pathLength="100" d="M190 280 A190 190 0 0 1 380 90"/>
+        <circle class="ring__node n1" cx="380" cy="90" r="15"/>
+        <circle class="ring__node n2" cx="570" cy="280" r="15"/>
+        <circle class="ring__node n3" cx="380" cy="470" r="15"/>
+        <circle class="ring__node n4" cx="190" cy="280" r="15"/>
+        <circle class="ring__dot" r="9"><animateMotion id="dotMotion" dur="7s" repeatCount="indefinite" path="M380 90 A190 190 0 0 1 380 470 A190 190 0 0 1 380 90"/></circle>
+        <text class="ring__mid" x="380" y="272" id="ringMid">Замкнутый круг</text>
+        <text class="ring__mid" x="380" y="304" id="ringMid2"></text>
+        <g aria-hidden="true">
+          <text class="ring__lab ring__lab--old l1" x="380" y="52" text-anchor="middle">Запрет</text>
+          <text class="ring__lab ring__lab--old l2" x="598" y="289" text-anchor="start">Голод</text>
+          <text class="ring__lab ring__lab--old l3" x="380" y="520" text-anchor="middle">Срыв</text>
+          <text class="ring__lab ring__lab--old l4" x="162" y="289" text-anchor="end">Вина</text>
+          <text class="ring__lab ring__lab--new" x="380" y="52" text-anchor="middle">Разрешение</text>
+          <text class="ring__lab ring__lab--new" x="598" y="289" text-anchor="start">Голод вовремя</text>
+          <text class="ring__lab ring__lab--new" x="380" y="520" text-anchor="middle">Еда</text>
+          <text class="ring__lab ring__lab--new" x="162" y="289" text-anchor="end">Покой</text>
+        </g>
+      </svg>
+      <p class="cycle__now" id="cycleNow" aria-live="polite">Запрет</p>
+    </div>
+    <div class="cycle__steps">
+      <h2 class="sec__title" data-reveal>Это не слабая воля, а замкнутый круг</h2>
+      <article class="cycle__step" data-stage="0" data-label="Запрет">
+        <h3>Вы запрещаете себе еду</h3>
+        <p>Сладкое, ужин, «лишнее». Запрет похож на дисциплину и даёт чувство контроля: уж теперь-то получится.</p>
+      </article>
+      <article class="cycle__step" data-stage="1" data-label="Голод">
+        <h3>Тело всё равно просит</h3>
+        <p>Чем строже запрет, тем громче голод: и физический, и эмоциональный. Мысли о еде занимают всё больше места.</p>
+      </article>
+      <article class="cycle__step" data-stage="2" data-label="Срыв">
+        <h3>Запрет прорывается</h3>
+        <p>Это не характер и не слабость. Так обычно заканчивается долгое «нельзя». Часто за один раз съедается всё, что себе не разрешали.</p>
+      </article>
+      <article class="cycle__step" data-stage="3" data-label="Вина">
+        <h3>Приходят вина и стыд</h3>
+        <p>И решение «с понедельника ещё строже». Круг замкнулся, и следующий виток начинается с ещё большего запрета.</p>
+      </article>
+      <article class="cycle__step cycle__step--end" data-stage="4" data-label="Другой цикл">
+        <h3>Работа начинается с разрыва круга</h3>
+        <p>Мы не ужесточаем правила. Мы разбираем, что вы на самом деле чувствуете перед едой, возвращаем разрешение есть и учимся слышать голод вовремя. Тот же круг, но уже без наказания в конце.</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- COMPOSE: live label -->
+<section class="sec compose" id="compose">
+  <h2 class="sec__title" data-reveal>Из чего на самом деле состоит ваше «хочу есть»</h2>
+  <p class="sec__lead" data-reveal>Отметьте, что узнаёте. Этикетка соберётся сама и подскажет, с чего начать. Это не диагноз, а повод посмотреть на себя внимательнее.</p>
+  <div class="compose__grid">
+    <div class="compose__tag stack" data-tilt data-reveal>
+      <div class="tilt">
+        <div class="sway">
+          <div class="tag" id="liveTag" aria-live="polite">
+            <p class="tag__title">Состав вашего «хочу есть»</p>
+            <div class="tag__bar"></div>
+            <dl class="tag__rows">
+              <div><dt>Настоящий голод</dt><dd id="tHunger">не обнаружен</dd></div>
+              <div><dt>Эмоции в составе</dt><dd id="tEmo">1</dd></div>
+              <div><dt>Правил и запретов</dt><dd id="tRule">1</dd></div>
+              <div><dt>Ситуаций</dt><dd id="tSit">0</dd></div>
+            </dl>
+            <p class="tag__fine" id="tFine">Состав: усталость после работы, запрет «с понедельника».</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <fieldset class="chips" id="ingredients">
+      <legend>Что бывает в вашем составе</legend>
+      <label><input type="checkbox" value="tired" data-k="emo" data-s="усталость после работы" checked><span>Усталость после работы</span></label>
+      <label><input type="checkbox" value="rule" data-k="rule" data-s="запрет «с понедельника»" checked><span>Запрет «с понедельника»</span></label>
+      <label><input type="checkbox" value="anx" data-k="emo" data-s="тревога"><span>Тревога</span></label>
+      <label><input type="checkbox" value="bore" data-k="emo" data-s="скука"><span>Скука</span></label>
+      <label><input type="checkbox" value="lonely" data-k="emo" data-s="одиночество"><span>Одиночество</span></label>
+      <label><input type="checkbox" value="shame" data-k="emo" data-s="стыд после еды"><span>Стыд после еды</span></label>
+      <label><input type="checkbox" value="secret" data-k="rule" data-s="еда тайком"><span>Еда тайком</span></label>
+      <label><input type="checkbox" value="party" data-k="sit" data-s="застолья и праздники"><span>Застолья и праздники</span></label>
+      <label><input type="checkbox" value="hunger" data-k="hunger" data-s="настоящий голод"><span>Настоящий голод</span></label>
+    </fieldset>
+  </div>
+  <div class="rec" id="rec" aria-live="polite">
+    <div class="rec__text">
+      <p class="rec__kicker" id="recKicker">С чего начать</p>
+      <h3 class="rec__title" id="recTitle">Сессия, 50 минут</h3>
+      <p class="rec__why" id="recWhy">Разберём, из чего складывается ваш круг, и решим, что дальше. Если хочется начать совсем мягко, есть стартовый формат за 1 000 ₽.</p>
+    </div>
+    <div class="rec__side">
+      <p class="rec__sum" id="recSum">5 000 ₽</p>
+      <p class="rec__note" id="recNote">за сессию, 50 минут</p>
+      <a class="btn btn--light" id="recGo" href="#contact"><span>Записаться с этим составом</span></a>
+    </div>
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section class="sec about" id="about">
+  <div class="about__body">
+    <h2 class="sec__title" data-reveal>Кристина Рябуха, практикующий психолог</h2>
+    <p class="about__big" data-reveal>С едой обычно приходят не за рецептом. Приходят, чтобы перестать воевать с собой.</p>
+    <p data-reveal>Я работаю с 2019 года со взрослыми и подростками. Моя задача — помочь вам обрести опору и внутреннюю гармонию: понять, что стоит за едой, и найти другие способы справляться с тем, что вы чувствуете.</p>
+    <p data-reveal>Я не диетолог и не составляю рационы. Если по ходу работы понадобится врач или диетолог, я скажу об этом прямо.</p>
+  </div>
+  <div class="about__tag stack" data-tilt data-reveal>
+    <div class="tilt">
+      <div class="sway">
+        <div class="tag">
+          <p class="tag__title">О специалисте</p>
+          <div class="tag__bar"></div>
+          <dl class="tag__rows facts">
+            <div><dt>Практика с</dt><dd><b><span data-target="2019">2019</span></b> года</dd></div>
+            <div><dt>Клиенты</dt><dd>взрослые и подростки</dd></div>
+            <div><dt>Сессия</dt><dd>50 минут</dd></div>
+            <div><dt>Диеты</dt><dd>не назначаю</dd></div>
+            <div><dt>Принцип</dt><dd>поддержка, понимание, результат</dd></div>
+          </dl>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PRICE -->
+<section class="sec price" id="price">
+  <h2 class="sec__title" data-reveal>Стоимость и форматы</h2>
+  <div class="price__grid">
+    <article class="plan plan--main" data-reveal>
+      <h3>Три месяца: группа и индивидуальные сессии</h3>
+      <p>Регулярная поддержка, когда одной встречи мало и нужно изменить привычный круг.</p>
+      <ul class="months">
+        <li><b>Первый месяц</b><span>Разбираемся, как устроено ваше питание: когда, что и при каких эмоциях.</span></li>
+        <li><b>Второй месяц</b><span>Работаем с запретами, стыдом и чувствами, на которые вы отвечаете едой.</span></li>
+        <li><b>Третий месяц</b><span>Закрепляем: что делать в трудный вечер и как не возвращаться в круг.</span></li>
+      </ul>
+      <p class="plan__sum">72 000 ₽</p>
+      <p class="plan__per">24 000 ₽ в месяц</p>
+    </article>
+    <article class="plan plan--one" data-reveal>
+      <h3>Сессия</h3>
+      <p>50 минут один на один. Разберём ваш запрос и решим, что дальше.</p>
+      <p class="plan__sum">5 000 ₽</p>
+    </article>
+    <article class="plan plan--start" data-reveal>
+      <h3>Старт</h3>
+      <p>Короткий формат, чтобы познакомиться с подходом и сделать первый шаг.</p>
+      <p class="plan__sum">1 000 ₽</p>
+    </article>
+  </div>
+  <div class="objection">
+    <h3 data-reveal>«72 000 — это много»</h3>
+    <p data-reveal>Это 24 000 ₽ в месяц за три месяца работы. Не обязательно начинать с неё: можно прийти на старт за 1 000 ₽ или на сессию за 5 000 ₽ и решить, что вам подходит, уже после знакомства.</p>
+  </div>
+</section>
+
+<!-- FAQ -->
+<section class="sec faq" id="faq">
+  <h2 class="sec__title" data-reveal>Частые вопросы</h2>
+  <div class="faq__list">
+    <details class="faq__item" data-reveal>
+      <summary>Чем вы отличаетесь от диетолога?</summary>
+      <div class="faq__a"><p>Я психолог. Я не составляю рационы и не назначаю диеты, а работаю с тем, что стоит за едой: эмоциями, запретами, привычками и стыдом.</p></div>
+    </details>
+    <details class="faq__item" data-reveal>
+      <summary>С чем можно прийти?</summary>
+      <div class="faq__a"><p>С перееданием и «срывами», заеданием эмоций, жёсткими запретами и диетами по кругу, виной и стыдом после еды. Если не уверены, подходит ли ваш случай, напишите, и я отвечу честно.</p></div>
+    </details>
+    <details class="faq__item" data-reveal>
+      <summary>Как проходит первая сессия?</summary>
+      <div class="faq__a"><p>50 минут. Вы рассказываете, что происходит с едой, я задаю вопросы и объясняю, как это устроено. В конце у вас будет понятный следующий шаг. Всё, что вы расскажете, остаётся между нами.</p></div>
+    </details>
+    <details class="faq__item" data-reveal>
+      <summary>Как устроена программа на три месяца?</summary>
+      <div class="faq__a"><p>Это группа и индивидуальные сессии вместе, всего 72 000 ₽. Точное число встреч и формат согласуем при записи, чтобы вы видели картину целиком.</p></div>
+    </details>
+    <details class="faq__item" data-reveal>
+      <summary>Можно начать с малого?</summary>
+      <div class="faq__a"><p>Да. Есть старт за 1 000 ₽ и сессия за 5 000 ₽. К программе можно перейти позже, когда поймёте, что вам подходит.</p></div>
+    </details>
+    <details class="faq__item" data-reveal>
+      <summary>Это заменяет врача?</summary>
+      <div class="faq__a"><p>Нет. Если есть резкая потеря веса, рвота, обмороки или боли, сначала нужна помощь врача. Психологическая работа идёт рядом с ней и не вместо неё.</p></div>
+    </details>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section class="sec contact" id="contact">
+  <div class="contact__form">
+    <h2 class="sec__title" data-reveal>Запишитесь на сессию</h2>
+    <form class="form" id="leadForm" data-reveal novalidate>
+      <input type="text" name="_gotcha" style="display:none" tabindex="-1" autocomplete="off">
+      <input type="hidden" name="sostav" id="sostavField" value="">
+      <label class="field"><span>Как к вам обращаться</span><input type="text" name="name" autocomplete="given-name" required></label>
+      <label class="field"><span>Телефон или Telegram</span><input type="tel" name="phone" autocomplete="tel" inputmode="tel" placeholder="+7" required></label>
+      <label class="field"><span>С чем хотите прийти</span>
+        <select name="request" id="reqSelect">
+          <option>Переедание и срывы</option>
+          <option>Жёсткие запреты и диеты по кругу</option>
+          <option>Заедание эмоций</option>
+          <option>Вина и стыд после еды</option>
+          <option>Другое</option>
+        </select>
+      </label>
+      <label class="field"><span>Формат</span>
+        <select name="format" id="fmtSelect">
+          <option>Сессия, 50 минут, 5 000 ₽</option>
+          <option>Старт, 1 000 ₽</option>
+          <option>Три месяца: группа и сессии, 72 000 ₽</option>
+          <option>Пока не знаю, подскажите</option>
+        </select>
+      </label>
+      <label class="check"><input type="checkbox" name="consent" required><span>Согласие на обработку данных по <a href="privacy.html">политике конфиденциальности</a></span></label>
+      <button class="btn btn--wide" type="submit"><span>Отправить заявку</span></button>
+      <p class="form__note" id="formNote" role="status"></p>
+    </form>
+  </div>
+  <div class="contact__links" data-reveal>
+    <h3>Или напишите сами</h3>
+    <ul class="links">
+      <li><a href="https://t.me/KristyRyabukha27" target="_blank" rel="noopener"><b>Telegram</b><span>@KristyRyabukha27</span></a></li>
+      <li><a href="https://vk.ru/psy_kristy" target="_blank" rel="noopener"><b>ВКонтакте</b><span>сообщество</span></a></li>
+      <li><a href="https://www.b17.ru/kristinaryabuha/" target="_blank" rel="noopener"><b>Профиль на Б17</b><span>страница специалиста</span></a></li>
+    </ul>
+    <p class="contact__care">Консультация психолога не заменяет медицинскую помощь.</p>
+  </div>
+</section>
+
+</main>
+
+<footer class="footer">
+  <p class="footer__name" aria-hidden="true">Кристина Рябуха</p>
+  <div class="footer__meta">
+    <p>Психолог. Работаю с пищевым поведением.</p>
+    <p>Взрослые и подростки, с 2019 года.</p>
+    <p><a href="privacy.html">Политика конфиденциальности</a></p>
+    <p>© <span id="year">2026</span></p>
+  </div>
+</footer>
+
+<a class="fab" href="https://t.me/KristyRyabukha27" target="_blank" rel="noopener" aria-label="Написать в Telegram"><span>Написать в Telegram</span></a>
+
+<script src="script.js"></script>
+</body>
+</html>
